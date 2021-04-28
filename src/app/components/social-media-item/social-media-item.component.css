@@ -1,0 +1,40 @@
+.box {
+  border-top: 2px solid hsl(203, 89%, 53%);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--cardGray);
+  text-align: center;
+  padding: 1.7em 0;
+  position: relative;
+  margin: 15px;
+}
+.box__socialname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.box__image {
+  width: 20px;
+  height: 20px;
+}
+.box__followers-count {
+  font-size: 50px;
+  font-weight: 700;
+}
+.box__followers-title {
+  display: block;
+  text-transform: uppercase;
+  color: var(--cardTitle);
+  letter-spacing: 5px;
+  font-size: 0.75em;
+}
+.box__today {
+  margin-top: 20px;
+  color: var(--lime-green);
+  font-size: 0.7em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

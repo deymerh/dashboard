@@ -1,0 +1,13 @@
+<div class="card-small" [ngClass]="{'dark': isModeDark}">
+  <p class="card-small-views">{{ overviews.title}}</p>
+  <p class="card-small-icon">
+    <img [src]="overviews.icon" alt="icon">
+  </p>
+  <p class="card-small-number">{{overviews.likes}}</p>
+  <p class="card-small-percentage">
+    <span>
+      <img src="../../../assets/images/icon-up.svg" alt="icon-up">
+      {{ overviews.percentage }}
+    </span>
+  </p>
+</div>

@@ -1,0 +1,14 @@
+<!-- [class]="['social-media-border', socialMediaData.borderColor]" -->
+<article class="box" [ngClass]="{'dark': isModeDark}">
+  <p class="box__socialname">
+    <img class="box__image" [src]="socialMediaData.icon" alt="icon">
+    <span class="box__user">{{ socialMediaData.username }}
+    </span>
+  </p>
+  <span class="box__followers-count">{{ socialMediaData.followers }}</span>
+  <span class="box__followers-title">followers</span>
+  <p class="box__today">
+    <img [src]="socialMediaData.iconUp" alt="icon-up">
+    12 Today
+  </p>
+</article>
